@@ -1,0 +1,48 @@
+/* --- Agenda --- */
+.agenda {
+    display: block;
+    clear: both;
+    margin: 20px 10px 40px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px -1px rgba(0,0,0,0.1);
+  }
+  .agenda h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .evenement {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .evenement:last-child {
+    border-bottom: none;
+  }
+  .evenement h3 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .evenement ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .evenement ul li {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  .evenement ul li span.heure {
+    min-width: 45px;
+    width: 45px;
+    margin-right: 12px;
+    text-align: right;
+    font-weight: 600;
+  }
+  .evenement ul li span.titreevenement {
+  }
+  .evenement ul li span.remarqueHoraire {
+    font-style: italic;
+  }
